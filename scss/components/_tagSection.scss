@@ -1,0 +1,23 @@
+.container-tagsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0;
+    .tags-container{
+        @include box (620px, 46px);
+        justify-content: space-between;
+        padding: 8px 10px;
+        .tags{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .text-tag{
+                font-size: 12px;
+                font-weight: 400;
+                color: $blue-diane;
+                margin: 3px;
+            }
+        }
+    }
+}
