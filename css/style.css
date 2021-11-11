@@ -79,6 +79,33 @@
           width: 13px;
           height: auto; }
 
+.container-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .container-panel .panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    width: 660px;
+    height: 76px;
+    background: #FAFAFA;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 67px;
+    margin-top: 90px; }
+    .container-panel .panel .container-panelsections {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .container-panel .panel .container-panelsections .box-icons {
+        margin: 0 4px; }
+      .container-panel .panel .container-panelsections .box-text {
+        font-size: 12px;
+        font-weight: 700;
+        color: #9E9E9E; }
+
 * {
   margin: 0;
   padding: 0;
