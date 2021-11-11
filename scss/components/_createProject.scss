@@ -49,11 +49,8 @@
                     }
                 }
                 .submit{
-                    @include inputBox(37px);
-                    background: $calypso;
+                    @include submit($calypso, 37px);
                     opacity: 0.5;
-                    color: white;
-                    height: 55px;
                 }
             }
         }
