@@ -240,6 +240,85 @@
           margin: 10px;
           padding: 5px 8px; }
 
+.container-createproject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px; }
+  .container-createproject .createproject {
+    display: flex;
+    width: 620px;
+    height: auto;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    border: 1px solid #0C3944;
+    flex-direction: column;
+    padding: 32px 32px 0 32px; }
+    .container-createproject .createproject h3 {
+      text-align: center;
+      font-size: 22px;
+      color: #0C3944; }
+    .container-createproject .createproject .container-form {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0; }
+      .container-createproject .createproject .container-form .col-project {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0; }
+        .container-createproject .createproject .container-form .col-project .textarea {
+          height: 80px; }
+        .container-createproject .createproject .container-form .col-project .input-project {
+          width: 95%;
+          min-height: 40px;
+          background: #EEEEEE;
+          border-radius: 8px;
+          outline: none;
+          border: none;
+          margin: 10px;
+          padding: 5px 8px; }
+        .container-createproject .createproject .container-form .col-project label {
+          font-size: 14px;
+          font-weight: 700;
+          color: #0C3944; }
+        .container-createproject .createproject .container-form .col-project input[type="file"] {
+          display: none; }
+        .container-createproject .createproject .container-form .col-project .input-file {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 95%;
+          min-height: 40px;
+          background: #EEEEEE;
+          border-radius: 8px;
+          outline: none;
+          border: none;
+          margin: 10px;
+          padding: 5px 8px;
+          font-size: 12px;
+          font-weight: 700;
+          color: #9E9E9E;
+          margin: 0 4px;
+          background: #E0E0E0;
+          margin: 10px;
+          width: 95%; }
+          .container-createproject .createproject .container-form .col-project .input-file img {
+            padding: 0 5px; }
+        .container-createproject .createproject .container-form .col-project .submit {
+          width: 95%;
+          min-height: 40px;
+          background: #EEEEEE;
+          border-radius: 37px;
+          outline: none;
+          border: none;
+          margin: 10px;
+          padding: 5px 8px;
+          background: #196C84;
+          opacity: 0.5;
+          color: white;
+          height: 55px; }
+
 * {
   margin: 0;
   padding: 0;

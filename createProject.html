@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Red social | CoderHack</title>
+</head>
+<body>
+
+    <!--NavBar-->
+    <nav class="container-nav">
+        <img class="logo" src="./images/logo/logo.png" alt="logo">
+
+        <div class="share">
+            <p>compartir reto</p>
+        </div>
+
+        <div class="container-user">
+            <div class="notification">
+                <img src="./images/icons/bell.png" alt="bell">
+                <div class="red-point"></div>
+            </div>
+            <div class="user-section">
+                <div class="box-user">
+                    <img class="user-img" src="./images/icons/jorge.png" alt="jorge">
+                </div>
+                <div class="box-arrow">
+                    <img class="arrow-img" src="./images/icons/arrow.png" alt="arrow">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Create project-->
+    <div class="container-createproject">
+        <div class="createproject">
+            <h3>¡cuentanos sobre tu proyecto!</h3>
+            <form class="container-form">
+                <div class="col-project">
+                    <label>¿cómo se llama tu emprendimiento?</label>
+                    <input class="input-project" type="text">
+                </div>
+                <div class="col-project">
+                    <label>cuentanos, ¿de qué se trata?</label>
+                    <input class="input-project textarea" type="textarea">
+                </div>
+                <div class="col-project">
+                    <label>¿tienes logo? puedes adjuntarlo aquí </label>
+                    <label class="input-file" for="file">
+                        <img src="./images/icons/attach.svg" alt="file">
+                        Adjuntar
+                    </label>
+                    <input class="input-project" id="file" type="file">
+                </div>
+                <div class="col-project">
+                    <label>¿te gustaría participar de un taller en vivo con voluntarios?</label>
+                    <select name="taller" class="input-project">
+                        <option hidden selected>selecciona una opción</option>
+                    </select>
+                </div>
+                <div class="col-project">
+                    <input class="submit" type="submit" value="aceptar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

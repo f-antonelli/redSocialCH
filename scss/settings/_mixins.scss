@@ -13,3 +13,14 @@
     color: $grey;
     margin: 0 4px;
 }
+
+@mixin inputBox ($radius){
+    width: 95%;
+    min-height: 40px;
+    background: $grey-lighten-3;
+    border-radius: $radius;
+    outline: none;
+    border: none;
+    margin: 10px;
+    padding: 5px 8px;
+}
