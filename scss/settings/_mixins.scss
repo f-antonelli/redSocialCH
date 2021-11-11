@@ -1,6 +1,5 @@
 @mixin box ($w, $radius){
     display: flex;
-    align-items: center;
     width: $w;
     height: auto;
     background: $grey-lighten-5;

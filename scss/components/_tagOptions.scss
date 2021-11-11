@@ -1,0 +1,19 @@
+.container-tagoptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .tagoptions{
+        @include box (620px, 14px);
+        display: block;
+        padding: 12px 12px 0 12px;
+        input{
+            margin-bottom: 12px;
+        }
+        label{
+            font-size: 14px;
+            font-weight: 500;
+            color: $blue-diane;
+        }
+    }
+}

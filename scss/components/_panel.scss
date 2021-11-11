@@ -6,6 +6,7 @@
     .panel{
         @include box (660px, 67px);
         justify-content: space-around;
+        align-items: center;
         padding: 24px 20px;
         margin-top: 90px;
         .container-panelsections{

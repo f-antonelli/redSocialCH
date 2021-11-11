@@ -7,6 +7,7 @@
     .tags-container{
         @include box (620px, 46px);
         justify-content: space-between;
+        align-items: center;
         padding: 8px 10px;
         .tags{
             display: flex;
