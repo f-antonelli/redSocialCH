@@ -3,6 +3,7 @@
 
 @import "settings/mixins";
 @import "settings/vars";
+@import "responsive/mQ";
 @import "components/navBar";
 @import "components/panel";
 @import "components/tagBar";
@@ -13,6 +14,7 @@
 @import "components/shareProject.scss";
 @import "components/personalInfo";
 @import "components/challengeInfo";
+@import "components/rewards";
 
 *{
     margin: 0;
