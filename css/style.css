@@ -637,6 +637,45 @@
     .container .rewards-container h3 {
       padding: 14px 0; }
 
+.container-notifications {
+  z-index: 99999999999;
+  display: flex;
+  justify-content: end;
+  align-items: center; }
+  .container-notifications .notifications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 85px 10px 0 10px;
+    display: flex;
+    width: 250px;
+    height: auto;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px; }
+    .container-notifications .notifications .box-notif {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10px;
+      margin: 5px;
+      display: flex;
+      width: 220px;
+      height: auto;
+      background: #FAFAFA;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 8px; }
+      .container-notifications .notifications .box-notif .text-notif {
+        padding: 10px 0 10px 10px; }
+        .container-notifications .notifications .box-notif .text-notif p {
+          padding: 2px 0;
+          font-size: 11px;
+          color: #757575; }
+        .container-notifications .notifications .box-notif .text-notif .time {
+          color: #196C84; }
+
 * {
   margin: 0;
   padding: 0;

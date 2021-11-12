@@ -1,0 +1,34 @@
+.container-notifications{
+    z-index: 99999999999;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    .notifications{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 85px 10px 0 10px;
+        @include box(250px, 8px);
+        .box-notif{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10px;
+            margin: 5px;
+            @include box(220px, 8px);
+            .text-notif{
+                padding: 10px 0 10px 10px;
+                p{
+                    padding: 2px 0;
+                    font-size: 11px;
+                    color: $grey-darken-1;
+                }
+                .time{
+                    color: $calypso;
+                }
+            }
+        }
+    }
+}
