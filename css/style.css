@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @media (max-width: 850px) {
   .container-nav .share {
-    visibility: hidden; }
+    display: none !important; }
+  .container-nav .container-user {
+    padding-right: 0 30px; }
   .nav-responsive {
     display: flex !important; } }
 
