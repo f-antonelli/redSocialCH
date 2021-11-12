@@ -498,6 +498,77 @@
       height: 55px;
       opacity: 0.5; }
 
+.container-personalinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 90px; }
+  .container-personalinfo .personalinfo {
+    display: flex;
+    width: 455px;
+    height: auto;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    border: 1px solid #0C3944;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; }
+    .container-personalinfo .personalinfo .emoji {
+      width: 58px;
+      height: auto; }
+    .container-personalinfo .personalinfo h3 {
+      font-size: 20px;
+      color: #0C3944;
+      line-height: 40px; }
+    .container-personalinfo .personalinfo .user-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px; }
+      .container-personalinfo .personalinfo .user-info p {
+        padding: 20px; }
+    .container-personalinfo .personalinfo .container-input {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 5px 0; }
+      .container-personalinfo .personalinfo .container-input label {
+        color: #0C3944;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+        padding: 5px 0; }
+      .container-personalinfo .personalinfo .container-input .input-info {
+        width: 95%;
+        min-height: 40px;
+        background: #EEEEEE;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        margin: 10px;
+        padding: 5px 8px;
+        border: 1px solid #424242;
+        background: white;
+        margin: 8px 0; }
+      .container-personalinfo .personalinfo .container-input .select {
+        background: #EEEEEE;
+        border: none; }
+    .container-personalinfo .personalinfo .submit {
+      width: 95%;
+      background: #196C84;
+      border-radius: 37px;
+      outline: none;
+      border: none;
+      margin: 10px;
+      padding: 5px 8px;
+      color: white;
+      height: 55px;
+      opacity: 0.5; }
+
 * {
   margin: 0;
   padding: 0;
