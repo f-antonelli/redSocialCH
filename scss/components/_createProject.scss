@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin: 90px 10px 0 10px;
     .createproject{
         @include box(620px, 24px);
         border: 1px solid $blue-diane;

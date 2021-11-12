@@ -1,3 +1,25 @@
+@media (max-width: 850px){
+    .container-nav{
+        .share{
+            // position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: auto;
+            border: 1px solid $calypso;
+            box-shadow: 6px 4px 0px $calypso;
+            border-radius: 43px;
+            p{
+                font-weight: 900;
+                font-size: 18px;
+                color: $calypso;
+                margin: 13px 0;
+            }
+        }
+    }
+}
+
 @media (max-width: 530px){
     .container-panel{
         .panel{

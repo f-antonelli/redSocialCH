@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 16px 0;
     .tags-container{
         @include box (620px, 46px);
+        margin: 16px 10px 2px 10px;
         justify-content: space-between;
         align-items: center;
         padding: 8px 10px;

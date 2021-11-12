@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin: 90px 10px 0 10px;
     .questions{
         @include box(520px, 14px);
         display: flex;

@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@media (max-width: 850px) {
+  .container-nav .share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    border: 1px solid #196C84;
+    box-shadow: 6px 4px 0px #196C84;
+    border-radius: 43px; }
+    .container-nav .share p {
+      font-weight: 900;
+      font-size: 18px;
+      color: #196C84;
+      margin: 13px 0; } }
+
 @media (max-width: 530px) {
   .container-panel .panel .container-panelsections .box-text {
     display: none; } }
@@ -113,9 +129,7 @@
 .container-tagsection {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 16px 0; }
+  align-items: center; }
   .container-tagsection .tags-container {
     display: flex;
     width: 620px;
@@ -123,6 +137,7 @@
     background: #FAFAFA;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 46px;
+    margin: 16px 10px 2px 10px;
     justify-content: space-between;
     align-items: center;
     padding: 8px 10px; }
@@ -148,6 +163,7 @@
     background: #FAFAFA;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
+    margin: 0 10px;
     display: block;
     padding: 12px 12px 0 12px; }
     .container-tagoptions .tagoptions input {
@@ -162,7 +178,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 90px; }
+  margin: 90px 10px 0 10px; }
   .container-comment .comment {
     display: flex;
     width: 620px;
@@ -248,7 +264,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90px; }
+  margin: 90px 10px 0 10px; }
   .container-createproject .createproject {
     display: flex;
     width: 620px;
@@ -325,7 +341,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 90px; }
+  margin: 90px 10px 0 10px; }
   .container-questions .questions {
     display: flex;
     width: 520px;
@@ -366,7 +382,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 90px; }
+  margin: 90px 10px 0 10px; }
   .container-shareproject .shareproject {
     display: flex;
     width: 620px;
@@ -440,7 +456,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 90px; }
+  margin: 90px 10px 0 10px; }
   .container-personalinfo .personalinfo {
     display: flex;
     width: 455px;
@@ -507,7 +523,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 90px; }
+  margin: 90px 10px 0 10px; }
   .container-personalinfo .personalinfo {
     display: flex;
     width: 455px;
